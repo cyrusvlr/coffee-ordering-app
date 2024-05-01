@@ -38,7 +38,7 @@ import food_24 from './food_24.png'
 import food_25 from './food_25.png'
 import food_26 from './food_26.png'
 import food_27 from './food_27.png'
-import food_28 from './food_28 - Copy.png'
+import food_28 from './food_28.png'
 
 
 import add_icon_white from './add_icon_white.png'
