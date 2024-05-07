@@ -28,7 +28,7 @@ const addToCart = async (req,res) => {
 //remove from cart
 const removeFromCart = async (req,res) => {
     try {
-        let userData = await userModel.findbyId(req.body.userId);
+        let userData = await userModel.findById(req.body.userId);
         let cartData = await userData.cartData;
         if(!cartData[req.body.itemId]>0) {
             cartData[req.body.itemId] -= 1;
