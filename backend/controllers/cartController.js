@@ -1,5 +1,4 @@
 import userModel from "../models/userModel.js"
-import axios from "axios"
 
 //add to cart
 const addToCart = async (req,res) => {
