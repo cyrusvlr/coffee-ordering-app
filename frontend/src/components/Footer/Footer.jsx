@@ -8,10 +8,12 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Coffee doesn't tend to come cheap, at least not beyond the instant ready-to-mix stuff.
+                Launched in May of 2024, we challenge that idea with our decent-quality yet affordable brews.
+                Today, we stand tall amid a crowded industry, aiming to grow from one location to over 200 branches nationwide.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
-                <img src={assets.facebook_icon} alt="" />
+                <img src={assets.twitter_icon} alt="" />
                 <img src={assets.facebook_icon} alt="" />
             </div>
         </div>
@@ -27,13 +29,13 @@ const Footer = () => {
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+0900 000 0000</li>
-                <li>template@gmail.com</li>
+                <li>+0912 345 6789</li>
+                <li>dailydose@gmail.com</li>
             </ul>
             </div>
         </div>
         <hr />
-        <p className='footer-copyright'>copyright text</p>
+        <p className='footer-copyright'>Copyright 2024 © Dailydose.com - All Rights Reserved.</p>
 
     </div>
   )

@@ -6,7 +6,9 @@ const Header = () => {
     <div className='header'>
       <div className="header-contents">
         <h2>Order your favorite coffee here</h2>
-        <p>Choose from a diverse menu featuring different types of great coffee at an affordable price.</p>
+        <p>Choose from a diverse menu featuring different types of great coffee at an affordable price.
+        We are a home-grown coffee company focused on making premium beverages more accessible.
+        </p>
         <button>View Menu</button>
       </div>
     </div>

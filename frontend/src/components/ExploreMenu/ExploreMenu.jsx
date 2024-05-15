@@ -6,7 +6,7 @@ const ExploreMenu = ({ category, setCategory }) => {
     return (
         <div className='explore-menu' id='explore-menu'>
             <h1>Explore our menu</h1>
-            <p className='explore-menu-text'>Choose from a diverse menu featuring different types of great coffee at an affordable price.</p>
+            <p className='explore-menu-text'>Choose from a diverse menu featuring different types of great coffee at an affordable price starting at ₱50.</p>
             <div className="explore-menu-list">
                 {menu_list.map((item, index) => {
                     return (
