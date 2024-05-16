@@ -9,7 +9,7 @@ const Header = () => {
         <p>Choose from a diverse menu featuring different types of great coffee at an affordable price.
         We are a home-grown coffee company focused on making premium beverages more accessible.
         </p>
-        <button>View Menu</button>
+        <a href="#explore-menu"><button>View Menu</button></a>
       </div>
     </div>
   )
